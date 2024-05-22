@@ -11,6 +11,10 @@
 		850C2B3B2BFE28C000AA809D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C2B3A2BFE28C000AA809D /* ContentView.swift */; };
 		850C2B3D2BFE28C300AA809D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850C2B3C2BFE28C300AA809D /* Assets.xcassets */; };
 		850C2B402BFE28C300AA809D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850C2B3F2BFE28C300AA809D /* Preview Assets.xcassets */; };
+		850C2B472BFE2A8800AA809D /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C2B462BFE2A8800AA809D /* ChatsView.swift */; };
+		850C2B492BFE2A9700AA809D /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C2B482BFE2A9700AA809D /* SongsView.swift */; };
+		850C2B4B2BFE2AD300AA809D /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C2B4A2BFE2AD300AA809D /* NewsView.swift */; };
+		850C2B4E2BFE559D00AA809D /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850C2B4D2BFE559C00AA809D /* DummyData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		850C2B3A2BFE28C000AA809D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		850C2B3C2BFE28C300AA809D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		850C2B3F2BFE28C300AA809D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		850C2B462BFE2A8800AA809D /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		850C2B482BFE2A9700AA809D /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
+		850C2B4A2BFE2AD300AA809D /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		850C2B4D2BFE559C00AA809D /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		850C2B512BFE590000AA809D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		850C2B372BFE28C000AA809D /* SwiftUserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				850C2B512BFE590000AA809D /* Info.plist */,
+				850C2B4D2BFE559C00AA809D /* DummyData.swift */,
 				850C2B382BFE28C000AA809D /* SwiftUserInterfaceApp.swift */,
 				850C2B3A2BFE28C000AA809D /* ContentView.swift */,
+				850C2B482BFE2A9700AA809D /* SongsView.swift */,
+				850C2B462BFE2A8800AA809D /* ChatsView.swift */,
+				850C2B4A2BFE2AD300AA809D /* NewsView.swift */,
 				850C2B3C2BFE28C300AA809D /* Assets.xcassets */,
 				850C2B3E2BFE28C300AA809D /* Preview Content */,
 			);
@@ -137,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850C2B4E2BFE559D00AA809D /* DummyData.swift in Sources */,
 				850C2B3B2BFE28C000AA809D /* ContentView.swift in Sources */,
+				850C2B472BFE2A8800AA809D /* ChatsView.swift in Sources */,
 				850C2B392BFE28C000AA809D /* SwiftUserInterfaceApp.swift in Sources */,
+				850C2B4B2BFE2AD300AA809D /* NewsView.swift in Sources */,
+				850C2B492BFE2A9700AA809D /* SongsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +293,7 @@
 				DEVELOPMENT_TEAM = 9S26B8AV5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUserInterface/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +323,7 @@
 				DEVELOPMENT_TEAM = 9S26B8AV5C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUserInterface/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
